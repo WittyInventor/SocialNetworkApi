@@ -1,10 +1,10 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
-// sequelize is a method that connects mysql to node/javascript.
+// sequelize is a library for pre-written sql methods that help us write sql quicker so we don't have to write as much.
 
-class category extends Model {}
+class Category extends Model {}
 
-category.init(
+Category.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -29,4 +29,4 @@ category.init(
   }
 );
 
-module.exports = category;
+module.exports = Category;
