@@ -1,0 +1,33 @@
+[
+  {
+    "product_name": "Sal",
+    "price": "60.00",
+    "stock": "700",
+    "category_id": "1"
+  },
+  {
+    "product_name": "ballet shoes",
+    "price": "40.00",
+    "stock": "500",
+    "category_id": "1"
+  },
+  {
+    "product_name": "costumes",
+    "price": "100.00",
+    "stock": "400",
+    "category_id": "1"
+  }, 
+  {
+    "product_name": "santa",
+    "price": "80.00",
+    "stock": "200",
+    "category_id": "1"
+  },
+  {
+    "product_name": "reindeer",
+    "price": "20.00",
+    "stock": "300",
+    "category_id": "1"
+  }
+
+]

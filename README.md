@@ -11,24 +11,23 @@
   - [Email](#email) 
 
   ## Description:  
-  I made this project in order to learn node in javascript and to generate a professional ReadMe. 
+  I made this project in order to learn backend api related to E-commerce business platforms which is commonly used in the developer world. 
     
   ## Installation: 
-You’ll need to use the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data. (need to edit)
+You have to install MySql2 package, Sequelize package to connect to Express.js API, and dotenv package. The schema.sql file in the db folder is part of the installation process in order to create the database with MySql shell commands. In addition, it is important to run  the seeds.js file which is necessary to create the base information of the tables.
 
-Use the `schema.sql` file in the `db` folder to create your database with MySQL shell commands. Use environment variables to store sensitive data like your MySQL username, password, and database name.
   
   ## Usage: 
-  After installation, the user sees a list of questions to answer and inputs their answers. After completion of those questions, the ReadMe preview will show all of the information and the users inputted answers.rs 
+  After installation requirements, when the user inputs the command of node server.js it starts the application, the server and the sequelize models are synced to the mysql database. The user will be able to open the get routes and see the displayed data, post to add information, put to update information, delete to remove information in insomnia for categories, products and tags. 
   
   ## License: 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+  [![License] N/A
   
   ## Contributors: 
   none 
   
   ## Testing: 
-  node index.js 
+  node seeds/seed.js, nodemon server.js
   
   ## Questions: 
   email [link](https://github.com/wittyinventor 
