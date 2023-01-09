@@ -31,6 +31,10 @@ You have to install MySql2 package, Sequelize package to connect to Express.js A
   
   ## Questions: 
   email [link](https://github.com/wittyinventor 
+
+  ## Google Drive Video Tutorial: 
+  Tutorial [link](https://drive.google.com/file/d/1n_oGK92Lb0DZqEnAsWKUPRac5vsfgoTB/view?usp=sharing
+
   
   ## Email: 
   atsheridan38@gmail.com
