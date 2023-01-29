@@ -1,5 +1,5 @@
 
-  # Title: E-Commerce Back-End
+  # Title: Social Network API
   ## Table of Contents 
   - [Description](#description) 
   - [Installation](#installation) 
@@ -11,14 +11,14 @@
   - [Email](#email) 
 
   ## Description:  
-  I made this project in order to learn backend api related to E-commerce business platforms which is commonly used in the developer world. 
+  I made this project in order to learn how NoSQL databases work that handle large amounts of unstructured data.
     
   ## Installation: 
-You have to install MySql2 package, Sequelize package to connect to Express.js API, and dotenv package. The schema.sql file in the db folder is part of the installation process in order to create the database with MySql shell commands. In addition, it is important to run  the seeds.js file which is necessary to create the base information of the tables.
+You have to install Express.js and Mongoose Packages.
 
   
   ## Usage: 
-  After installation requirements, when the user inputs the command of node server.js it starts the application, the server and the sequelize models are synced to the mysql database. The user will be able to open the get routes and see the displayed data, post to add information, put to update information, delete to remove information in insomnia for categories, products and tags. 
+  After installation requirements, when the developer inputs the command of node server.js it runs the application and it will listen to the requests.
   
   ## License: 
   [![License] N/A
@@ -27,13 +27,13 @@ You have to install MySql2 package, Sequelize package to connect to Express.js A
   none 
   
   ## Testing: 
-  node seeds/seed.js, nodemon server.js
+  node server.js and insomnia
   
   ## Questions: 
   email [link](https://github.com/wittyinventor 
 
   ## Google Drive Video Tutorial: 
-  Tutorial [link](https://drive.google.com/file/d/1n_oGK92Lb0DZqEnAsWKUPRac5vsfgoTB/view?usp=sharing
+  Tutorial [link](
 
   
   ## Email: 
